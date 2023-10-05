@@ -12,10 +12,16 @@ int main(void){
     printf("Hello, %s", name); //Printing user's name
 
     //-----===Conditionals===-----//
-    if (x < y) {
-        printf("X is less than Y\n");
+    //Example of how an IF-ELSE statement would work:
+    int x = 1; //Declaring X
+    int y = 2; //Declaring Y
+    if (x < y) { //Conditional to check if X is less than Y
+        printf("X is less than Y\n"); //If the condition prove to be true, than this line happen
+    }
+    else if (x == y) { //Conditional to check if X has the same value as Y
+        printf("X is equal to Y\n"); //If the condition prove to be true, than this line happen
     }
     else {
-        printf("X not less than Y");
+        printf("X is greater than Y\n"); //If none of the conditions are proven to be true, than this line happens
     }
 }
