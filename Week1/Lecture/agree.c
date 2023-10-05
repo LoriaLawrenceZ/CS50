@@ -9,11 +9,11 @@ int main(void){
     answer = getchar(); //stdio has its own function to get characters
 
     //Making an if-else statement
-    if (answer == 'Y') {
+    if (answer == 'Y' || answer == 'y') { //Using the logical operator OR (' || ')
         printf("Agreed.\n");
     }
-    else if (answer == 'N'){
-        printf("not agreed.\n");
+    else if (answer == 'N' || answer == 'n'){ //Using the logical operator OR (' || ')
+        printf("Not agreed.\n");
     }
     
 }
