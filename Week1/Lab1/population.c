@@ -21,12 +21,12 @@ int main(void) {
     int years = 0;
 
     //Calculating how many years it would take for population to grow
-    while (starting_population != ending_population){
+    while (starting_population < ending_population){
         starting_population += ( (starting_population / 3) - (starting_population / 4) );
         years ++;
     }
 
-    printf("It'll take %i years\n", years);    
+    printf("Years: %i\n", years);   
 }
 
 int get_starting_population(void) {
