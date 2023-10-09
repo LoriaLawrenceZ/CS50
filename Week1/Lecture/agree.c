@@ -2,7 +2,7 @@
 #include <stdio.h> //Standart IO librarie
 
 int main(void){
-    char answer; //It need to use " ' " (single quote) for char
+    char answer; //It need to use  ' (single quote) for char
 
     //Asking if the user agrees
     printf("Do you agree?");
